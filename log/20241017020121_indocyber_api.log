@@ -1,0 +1,39 @@
+{
+  "error_cause": "record not found",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/repositories.(*stockRepo).GetStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/repositories/stock.repo.go:45",
+  "level": "error",
+  "msg": "GetStock",
+  "time": "2024-10-17T02:01:26+07:00"
+}
+{
+  "error_cause": "data not found",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/handlers.(*stockHandler).UpdateStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/handlers/stock.handler.go:100",
+  "level": "error",
+  "msg": "UpdateStock",
+  "time": "2024-10-17T02:01:26+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "response": {
+    "response_code": "004",
+    "response_message": "data not found"
+  },
+  "time": "2024-10-17T02:01:26+07:00"
+}
+{
+  "error_cause": "invalid field mandatory nama_barang",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/handlers.(*stockHandler).UpdateStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/handlers/stock.handler.go:113",
+  "level": "error",
+  "msg": "UpdateStock",
+  "time": "2024-10-17T02:01:32+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "response": {
+    "response_code": "002",
+    "response_message": "invalid field mandatory nama_barang"
+  },
+  "time": "2024-10-17T02:01:32+07:00"
+}

@@ -1,0 +1,16 @@
+{
+  "error_cause": "invalid field format seri",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/handlers.(*stockHandler).UpdateStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/handlers/stock.handler.go:113",
+  "level": "error",
+  "msg": "UpdateStock",
+  "time": "2024-10-17T02:04:55+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "response": {
+    "response_code": "001",
+    "response_message": "invalid field format seri"
+  },
+  "time": "2024-10-17T02:04:55+07:00"
+}

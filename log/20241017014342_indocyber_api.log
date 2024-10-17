@@ -1,0 +1,83 @@
+{
+  "error_cause": "invalid field mandatory quantity",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/handlers.(*stockHandler).CreateStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/handlers/stock.handler.go:70",
+  "level": "error",
+  "msg": "CreateStock",
+  "time": "2024-10-17T01:44:22+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "request": null,
+  "response": {
+    "response_code": "002",
+    "response_message": "invalid field mandatory quantity"
+  },
+  "time": "2024-10-17T01:44:22+07:00"
+}
+{
+  "error_cause": "invalid field mandatory additional_info",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/handlers.(*stockHandler).CreateStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/handlers/stock.handler.go:70",
+  "level": "error",
+  "msg": "CreateStock",
+  "time": "2024-10-17T01:44:33+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "request": null,
+  "response": {
+    "response_code": "002",
+    "response_message": "invalid field mandatory additional_info"
+  },
+  "time": "2024-10-17T01:44:33+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "request": {
+    "id": 0,
+    "nama_barang": "Superman",
+    "quantity": 4,
+    "seri": "00000",
+    "additional_info": {
+      "okeoke": "okeoke"
+    },
+    "created_at": "0001-01-01T00:00:00Z",
+    "created_by": "user1",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "updated_by": ""
+  },
+  "response": {
+    "response_code": "000",
+    "response_message": "Success",
+    "response_data": {
+      "id": 1,
+      "nama_barang": "Superman",
+      "quantity": 4,
+      "seri": "00000",
+      "additional_info": {
+        "okeoke": "okeoke"
+      },
+      "created_at": "2024-10-17T01:44:55.597853+07:00",
+      "created_by": "user1",
+      "updated_at": "2024-10-17T01:44:55.597853+07:00",
+      "updated_by": ""
+    }
+  },
+  "time": "2024-10-17T01:44:55+07:00"
+}
+{
+  "error_cause": "record not found",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/repositories.(*stockRepo).GetStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/repositories/stock.repo.go:45",
+  "level": "error",
+  "msg": "GetStock",
+  "time": "2024-10-17T01:50:04+07:00"
+}
+{
+  "error_cause": "record not found",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/repositories.(*stockRepo).GetStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/repositories/stock.repo.go:45",
+  "level": "error",
+  "msg": "GetStock",
+  "time": "2024-10-17T01:52:54+07:00"
+}

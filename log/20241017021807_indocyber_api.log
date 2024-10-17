@@ -1,0 +1,16 @@
+{
+  "error_cause": "json: cannot unmarshal string into Go struct field Stock.quantity of type int",
+  "error_stack": "/Users/muhammadsarimin/Developer/Code/project/indocyber-api/handlers/stock.handler.go:107",
+  "level": "error",
+  "msg": "UpdateStock",
+  "time": "2024-10-17T02:18:09+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "response": {
+    "response_code": "001",
+    "response_message": "invalid field format quantity"
+  },
+  "time": "2024-10-17T02:18:09+07:00"
+}

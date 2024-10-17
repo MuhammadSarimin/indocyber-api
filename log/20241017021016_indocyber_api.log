@@ -1,0 +1,45 @@
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "response": {
+    "response_code": "000",
+    "response_message": "Success",
+    "response_data": {
+      "id": 1,
+      "nama_barang": "",
+      "quantity": 10,
+      "seri": "",
+      "additional_info": null,
+      "created_at": "0001-01-01T00:00:00Z",
+      "created_by": "",
+      "updated_at": "2024-10-17T02:10:21.449543+07:00",
+      "updated_by": "user3"
+    }
+  },
+  "time": "2024-10-17T02:10:21+07:00"
+}
+{
+  "error_cause": "json: cannot unmarshal string into Go struct field Stock.quantity of type int",
+  "error_stack": "\ngithub.com/muhammadsarimin/indocyber-api/handlers.(*stockHandler).UpdateStock\n\t/Users/muhammadsarimin/Developer/Code/project/indocyber-api/handlers/stock.handler.go:107",
+  "level": "error",
+  "msg": "UpdateStock",
+  "time": "2024-10-17T02:10:29+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "response": {
+    "response_code": "001",
+    "response_message": "invalid field format quantity"
+  },
+  "time": "2024-10-17T02:10:29+07:00"
+}
+{
+  "level": "info",
+  "msg": "[ response ]",
+  "response": {
+    "response_code": "",
+    "response_message": ""
+  },
+  "time": "2024-10-17T02:10:29+07:00"
+}
